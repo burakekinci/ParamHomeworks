@@ -21,14 +21,14 @@ namespace PracticumHW1.Controllers
         }
 
         #region GET Method(s)
-        // GET: api/<CustomerController>
+        // GET: api/<CustomerController> -> Get All Customers
         [HttpGet]
         public IActionResult GetCustomers()
         {
             return Ok(customers);
         }
 
-        // GET api/<CustomerController>/{id}
+        // GET api/<CustomerController>/{id} -> Get Customer By Id via using Route
         [HttpGet("GetIdByRoute/{id}")]
         public IActionResult GetIdByRoute([FromRoute] int id)
         {
@@ -44,7 +44,7 @@ namespace PracticumHW1.Controllers
             }
         }
 
-        // GET api/<CustomerController>/{id}
+        // GET api/<CustomerController>/{id} -> Get Customer By Id via using Query
         [HttpGet("GetIdByQuery")]
         public IActionResult GetIdByQuery([FromQuery] int id)
         {
@@ -60,7 +60,7 @@ namespace PracticumHW1.Controllers
             }
         }
 
-        // GET api/<CustomerController>/{filter}
+        // GET api/<CustomerController>/{filter} - Get Customer By Name Filter using Query
         [HttpGet]
         [Route("GetByFilter")]
         public IActionResult GetByName([FromQuery] string name)
@@ -80,7 +80,7 @@ namespace PracticumHW1.Controllers
 
 
         #region POST Method(s)
-        // POST api/<CustomerController>
+        // POST api/<CustomerController> -> Add New Customer
         [HttpPost]
         public IActionResult Post([FromBody] Customer newCustomer)
         {
@@ -100,7 +100,7 @@ namespace PracticumHW1.Controllers
         #endregion
 
         #region PUT Method(s)
-        // PUT api/<CustomerController>/5
+        // PUT api/<CustomerController>/5 -> Update Customer By Id
         [HttpPut("{id}")]
         public IActionResult Put(int id, [FromBody] Customer newCustomer)
         {
@@ -121,7 +121,7 @@ namespace PracticumHW1.Controllers
         #endregion
 
         #region Delete Method(s)
-        // DELETE api/<CustomerController>/5
+        // DELETE api/<CustomerController>/5 -> Delete Customer By Id
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
