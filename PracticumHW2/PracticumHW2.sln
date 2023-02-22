@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticumHW2", "PracticumHW2\PracticumHW2.csproj", "{A35A4762-AD35-4271-B951-2D7D21F88C2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PracticumHW2", "PracticumHW2\PracticumHW2.csproj", "{A35A4762-AD35-4271-B951-2D7D21F88C2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticumHW2.Base", "PracticumHW2.Base\PracticumHW2.Base.csproj", "{D1E79187-7642-4077-820A-A1D0F1D66354}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticumHW2.Data", "PracticumHW2.Data\PracticumHW2.Data.csproj", "{E0BF3675-2B6E-4910-8AB9-7B0398A83D4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticumHW2.Dto", "PracticumHW2.Dto\PracticumHW2.Dto.csproj", "{E5DEECD0-DCB4-4F09-997C-0973E8A171C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticumHW2.Service", "PracticumHW2.Service\PracticumHW2.Service.csproj", "{42FEA626-32F0-48CA-A8FE-B583537470A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{A35A4762-AD35-4271-B951-2D7D21F88C2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A35A4762-AD35-4271-B951-2D7D21F88C2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A35A4762-AD35-4271-B951-2D7D21F88C2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1E79187-7642-4077-820A-A1D0F1D66354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1E79187-7642-4077-820A-A1D0F1D66354}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1E79187-7642-4077-820A-A1D0F1D66354}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1E79187-7642-4077-820A-A1D0F1D66354}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0BF3675-2B6E-4910-8AB9-7B0398A83D4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0BF3675-2B6E-4910-8AB9-7B0398A83D4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0BF3675-2B6E-4910-8AB9-7B0398A83D4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0BF3675-2B6E-4910-8AB9-7B0398A83D4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5DEECD0-DCB4-4F09-997C-0973E8A171C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5DEECD0-DCB4-4F09-997C-0973E8A171C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5DEECD0-DCB4-4F09-997C-0973E8A171C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5DEECD0-DCB4-4F09-997C-0973E8A171C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42FEA626-32F0-48CA-A8FE-B583537470A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42FEA626-32F0-48CA-A8FE-B583537470A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42FEA626-32F0-48CA-A8FE-B583537470A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42FEA626-32F0-48CA-A8FE-B583537470A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
